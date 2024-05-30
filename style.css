@@ -10,7 +10,7 @@ body {
 }
 
 .cabc {
-    background-color: rgba(192, 192, 192, 0.822);
+    background-color: rgba(192, 192, 192, 0.877);
     color: #0f1d51;
     box-shadow: 10px 8px 25px #1b66bc;
     border-bottom: #1f79df solid 5px;
@@ -29,9 +29,21 @@ body {
 main {
     position: absolute;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
     background-image:url(./Imagens/Wallpaper.png);
     background-size: cover;
+}
+
+main h3 {
+    font-family: inlanders;
+    font-size: 60px;
+    display: flex;
+    justify-content: end;
+    align-self: center;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: 'inlanders';
+    src: url('./fonte/Inlanders\ Demo.otf');
 }
