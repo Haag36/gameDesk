@@ -34,6 +34,14 @@ main {
     background-size: cover;
 }
 
+@media (max-width: 1000px) {
+    main h5 {
+        opacity: 0; /* Tornar a caixa invisível */
+        visibility: hidden; /* Garantir que a caixa não ocupa espaço */
+    }
+}
+
+
 main h5 {
     font-family: inlanders;
     color: #ffff;
