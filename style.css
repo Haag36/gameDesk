@@ -46,11 +46,32 @@ main h5 {
 }
 
 main .goodbye1 {
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
 main .Ezsec {
     color: #476fff;
+}
+
+main #buy {
+    margin-top: 70px;
+    margin-left: 74%;
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: inlanders;
+    color: white;
+    background-color: #476fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main #buy:hover {
+    background-color: #122875;
 }
 
 @font-face {
