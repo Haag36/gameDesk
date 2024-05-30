@@ -27,5 +27,5 @@ body {
 
 main img {
     position: absolute;
-    height: 112vh;
+    width: 100%;
 }
