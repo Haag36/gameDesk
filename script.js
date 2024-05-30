@@ -7,7 +7,7 @@ function entrar(){
     var keyInput = document.getElementById("key");
     var key = keyInput.value;
     
-    if (name === "NewLocal" , key === "101020") {
+    if (name === "admin" , key === "admin") {
         window.location.href = "./home.html";
     } else {
         alert("Acesso Negado");
