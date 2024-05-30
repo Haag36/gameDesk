@@ -34,13 +34,23 @@ main {
     background-size: cover;
 }
 
-main h3 {
+main h5 {
     font-family: inlanders;
-    font-size: 60px;
+    color: #ffff;
+    font-size: 55px;
     display: flex;
-    justify-content: end;
-    align-self: center;
-    margin-right: 10px;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 30px;
+    letter-spacing: 2px;
+}
+
+main .goodbye1 {
+    margin-top: 15%;
+}
+
+main .Ezsec {
+    color: #476fff;
 }
 
 @font-face {
